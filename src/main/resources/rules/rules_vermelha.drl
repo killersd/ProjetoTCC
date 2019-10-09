@@ -1,0 +1,100 @@
+package rules
+
+import br.com.ifs.TCC.SintomasClassificacao
+
+rule "Sintoma hiperglicemia"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="hiperglicemia")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Choque"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="choque")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Apresentacao de partes fetais"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Apresentacao de partes fetais")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Baba-se"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Baba-se")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Convulsionando"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Convulsionando")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+rule "Sintoma Crianca nao reativa"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Crianca nao reativa")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Estridor"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Estridor")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma hemorragia exsanguinante"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="hemorragia exsanguinante")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma hipoglicemia"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="hipoglicemia")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Lesao ocular quimica aguda"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Lesao ocular quimica aguda")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Nao reativa"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Nao reativa")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Obstrução das vias aereas"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Obstrução das vias aereas")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Prolapso de cordao umbilical"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Prolapso de cordao umbilical")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end
+
+rule "Sintoma Respiracao Inadequada"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Respiracao Inadequada")
+	then
+		offerObject.setClassificacao("VERMELHA");
+	end

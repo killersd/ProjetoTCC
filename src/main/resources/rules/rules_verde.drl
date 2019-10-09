@@ -1,0 +1,164 @@
+package rules
+
+import br.com.ifs.TCC.SintomasClassificacao
+
+rule "Sintoma Cefaleia"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Cefaleia")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Chieira"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Chieira")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Comportamento atípico"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Comportamento atipico")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma corrimento"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="corrimento")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Deformidade"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Deformidade")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Dor leve recente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dor leve recente")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Dor ou coceira leves recentes"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dor ou coceira leves recentes")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Edema"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Edema")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Evento recente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Evento recente")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Eventos recentes"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Eventos recentes")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Febril"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Febril")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma inchaço"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="inchaco")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Infecção Local"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Infeccao Local")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Inflamação Local"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Inflamacao Local")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Olho vermelho"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Olho vermelho")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma sinais de dor leve"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="sinais de dor leve")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Sinais de dor leve recente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Sinais de dor leve recente")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma tosse produtiva"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="tosse produtiva")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Trauma de escroto"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Trauma de escroto")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Trauma recente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Trauma recente")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma trauma toráxico"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="trauma toraxico")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+rule "Sintoma Vômitos"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Vomitos")
+	then
+		offerObject.setClassificacao("VERDE");
+	end
+
+
+
+
+
+
+

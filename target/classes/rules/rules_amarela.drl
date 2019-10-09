@@ -1,0 +1,435 @@
+package rules
+
+import br.com.ifs.TCC.SintomasClassificacao
+
+/*rule "Sintoma sangramento vaginal"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="sangramento vaginal")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end*/
+
+/*rule "Sintoma hiperglicemia"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="hiperglicemia")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end*/
+
+rule "Sintoma Adulto quente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Adulto quente")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Agitação psicomotora"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Agitacao psicomotora")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Alteração da consciência totalmente atribuída ao alcool"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Alteracao da consciencia totalmente atribuida ao alcool")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma articulação quente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="articulacao quente")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Celulite de escroto"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Celulite de escroto")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Choro prolongado e initerrupto"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Choro prolongado e initerrupto")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma cólicas"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="colicas")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma comportamento conturbador"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="comportamento conturbador")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Couro cabeludo temporal dolorido"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Couro cabeludo temporal dolorido")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Déficit neurológico novo"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Deficit neurologico novo")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Distúrbio de Coagulação"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Disturbio de Coagulacao")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Dor abdominal"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dor abdominal")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma dor ao movimento articular"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="dor ao movimento articular")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma dor irradiada para o ombro"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="dor irradiada para o ombro")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Dor moderada"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dor moderada")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Dor ou coceira moderadas"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dor ou coceira moderadas")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma dor pleurítica"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="dor pleuritica")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma dor testicular"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="dor testicular")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Erupção ou vesículas  disseminadas"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Erupcao ou vesiculas  disseminadas")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma fezes pretas ou em groselha"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="fezes pretas ou em groselha")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Gravidez possivel"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Gravidez possivel")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Hemorragia menor incontrolável"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Hemorragia menor incontrolavel")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma historia aguda de vomito de sangue"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="historia aguda de vomito de sangue")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma história cardíaca importante"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="historia cardiaca importante")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma História de convulsão"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Historia de convulsao")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma história de hemoptise"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="historia de hemoptise")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma historia de inconsciência"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="historia de inconsciencia")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma história de trauma"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="historia de trauma")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma História de trauma cranioencefálico"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Historia de trauma cranioencefalico")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma História de viagem recente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Historia de viagem recente")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma História Discordante"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Historia Discordante")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma História psiquiátrica importante "
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Historia psiquiatrica importante")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma historia de trauma cranioencefálico "
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="historia de trauma cranioencefalico")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Imunossupressão conhecida"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Imunossupressão conhecida")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma incapaz de andar"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="incapaz de andar")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Incapaz de se alimentar"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Incapaz de se alimentar")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Inconsolável pelos pais"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Inconsolavel pelos pais")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma início súbito"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="inicio subito")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma massa abdominal visível"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="massa abdominal visivel")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Mortalidade moderada"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Mortalidade moderada")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Não entretível"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Nao entretivel")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Não se alimenta"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Nao se alimenta")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma PFE baixo"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="PFE baixo")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma pressão arterial elevada"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="pressao arterial elevada")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Redução recente da acuidade visual"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Reducao recente da acuidade visual")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Risco moderado de agredir os outros"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Risco moderado de agredir os outros")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Risco moderado de autoagressão"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Risco moderado de autoagressao")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Sat O2 baixa"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Sat O2 baixa")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Sem melhora com sua medicação habitual"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Sem melhora com sua medicacao habitual")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma sinais de desidratação"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="sinais de desidratacao")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Sinais de dor moderada"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Sinais de dor moderada")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma trauma direto no dorso"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="trauma direto no dorso")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma trauma direto no pescoço"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="trauma direto no pescoco")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+rule "Sintoma Vômitos persistentes"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Vomitos persistentes")
+	then
+		offerObject.setClassificacao("AMARELA");
+	end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

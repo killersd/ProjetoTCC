@@ -1,0 +1,444 @@
+package rules
+
+import br.com.ifs.TCC.SintomasClassificacao
+
+
+rule "Sintoma sangramento vaginal"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="sangramento vaginal")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Idade <25 anos"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Idade <25 anos")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Adulto muito quente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Adulto muito quente")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Alteração da consciência não totalmente atribuída ao alcool"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Alteracao da consciencia nao totalmente atribuida ao alcool")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "alteração súbita da consciência"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="alteracao subita da consciencia")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Alto risco de agredir os outros"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Alto risco de agredir os outros")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Alto risco de autoagressão"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Alto risco de autoagressao")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Alto risco de nova autoagressão"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Alto risco de nova autoagressao")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Comprometimento vascular distal"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Comprometimento vascular distal")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Dor irradia para o dorso"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dor irradia para o dorso")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Dor ou coceira intensas"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dor ou coceira intensas")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Dor precordial ou cardíaca"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dor precordial ou cardiaca")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Edema de Língua"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Edema de Lingua")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Dor intensa"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dor intensa")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma dor epigástrica"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="dor epigastrica")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma dor abdominal "
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="dor abdominal")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Dispinéia Aguda"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Dispineia Aguda")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Déficit neurológico agudo"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Deficit neurologico agudo")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Criança quente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Crianca quente")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma hemoptise"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="hemoptise")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Gangrena de escroto"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Gangrena de escroto")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Frases entrecortadas"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Frases entrecortadas")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma exaustão"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="exaustao")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma evacuaçao de sangue vivo ou escurecido"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="evacuacao de sangue vivo ou escurecido")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+rule "Sintoma esforço respiratório aumentado"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="esforco respiratorio aumentado")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+rule "Sintoma Hemorragia maior incontrolável"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Hemorragia maior incontrolavel")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Erupção fixa"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Erupcao fixa")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Erupção cultânea fixa"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Erupcao cultanea fixa")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Edema Facial"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Edema Facial")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma história inadequada"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="historia inadequada")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma História respiratória significativa"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Historia respiratoria significativa")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma história de convulsão"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="historia de convulsao")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma "
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma História alérgica importante"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Historia alergica importante")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma história de alergia importante"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="historia de alergia importante")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma História de overdose ou envenenamento"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Historia de overdose ou envenenamento")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Hipotonia"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Hipotonia")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma hipotermia"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="hipotermia")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma hiperglicemia com cetose"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="hiperglicemia com cetose")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma PFE muito baixo"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="PFE muito baixo")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Prostração"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Prostracao")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma hipotonia"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="hipotonia")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Pulso anormal"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Pulso anormal")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Púrpura"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Purpura")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Perda total da visão aguda"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Perda total da visao aguda")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma não reage aos pais"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="nao reage aos pais")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Mortalidade alta"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Mortalidade alta")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Mecanismo de trauma significativo"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Mecanismo de trauma significativo")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma inicio agudo após trauma"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="inicio agudo apos trauma")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Sangramento vaginal intenso"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Sangramento vaginal intenso")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Sat O2 muito baixa"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Sat O2 muito baixa")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+rule "Sintoma Sinais de dor intensa"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Sinais de dor intensa")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Sinais de meningismo"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Sinais de meningismo")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Trabalho de parto"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Trabalho de parto")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Trauma ocular penetrante"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Trauma ocular penetrante")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma vomito de sangue"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="vomito de sangue")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma > 20 semanas de gravidez"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="> 20 semanas de gravidez")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Risco de contaminação persistente"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Risco de contaminacao persistente")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+rule "Sintoma Resposta à voz ou a dor apenas"
+	when 
+		offerObject: SintomasClassificacao(Sintomas=="Resposta a voz ou a dor apenas")
+	then
+		offerObject.setClassificacao("LARANJA");
+	end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
